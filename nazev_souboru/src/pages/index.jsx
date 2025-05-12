@@ -1,9 +1,9 @@
 import { render } from '@czechitas/render';
 import '../global.css';
 import './index.css';
-import { Header } from "./components/Header";
-import { Intro } from "./components/Intro";
-import { Pose } from "./components/Pose";
+import { Header } from "../components/Header";
+import { Intro } from "../components/Intro";
+import { Pose } from "../components/Pose";
 
 document.querySelector("#root").innerHTML = render(
   <div>
